@@ -18,3 +18,5 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 - picture           VARCHAR(255)
 - car_code          VARCHAR(255)    UNIQUE
 - date              DATETIME                    NOTNULL
+- horsepower        SMALLINT        UNSIGNED    NULL
+- engine_size       SMALLINT        UNSIGNED    NOTNULL
